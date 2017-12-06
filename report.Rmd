@@ -1,0 +1,9 @@
+---
+title: "Easy Cost"
+author: "Clement Ponsonnet"
+output:
+  html_document:
+    keep_md : true
+  html_notebook: default
+---
+
