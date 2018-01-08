@@ -14,7 +14,7 @@ brands <- read.csv("data/brand.csv")
 summary(brands)
 ```
 
-**2 - Suggest and write a model to answer this question by specifying what is fixed and what is random.**
+**2 - The aim of the study is to assess the impact of Age and Gender on the preference for a brand.Suggest and write a model to answer this question by specifying what is fixed and what is random.**
 
 We treat age and gender as fixed (the explanatory variables), and brand preference as variable (the dependent variable).
 

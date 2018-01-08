@@ -1,5 +1,11 @@
-# Homework 2
-Clement Ponsonnet  
+---
+title: "Homework 2"
+author: "Clement Ponsonnet"
+output:
+  html_document:
+    keep_md : true
+  html_notebook: default
+---
 
 **1 - Import the brand dataset. For each individual, we collect, its Age, its Gender and the Brand he prefers, either M1 or M2.**
 
@@ -19,7 +25,7 @@ summary(brands)
 ##  Max.   :514.0                    Max.   :38.0
 ```
 
-**2 - Suggest and write a model to answer this question by specifying what is fixed and what is random.**
+**2 - The aim of the study is to assess the impact of Age and Gender on the preference for a brand.Suggest and write a model to answer this question by specifying what is fixed and what is random.**
 
 We treat age and gender as fixed (the explanatory variables), and brand preference as variable (the dependent variable).
 
